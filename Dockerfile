@@ -31,6 +31,6 @@ RUN pdm install
 
 EXPOSE 80
 
-CMD pdm run uvicorn app.main:app --host=0.0.0.0 --port=80
+CMD pdm run uvicorn app.main:app --host=40.112.243.64 --port=80
 
 

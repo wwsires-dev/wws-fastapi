@@ -3,6 +3,6 @@ services:
   api:
     image: "worldwidesires/fastapi:latest"
     ports:
-      - "9999:9999"
+      - "80:80"
     volumes:
       - "./app:/home/wws/app"
