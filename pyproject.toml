@@ -1,0 +1,25 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Derek Damko", email = "ddamko@wwsires.com"},
+]
+dependencies = [
+    "pyodbc>=4.0.32",
+    "fastapi>=0.75.0",
+    "sqlalchemy>=1.4.32",
+    "sqlmodel>=0.0.6",
+    "uvicorn>=0.17.6",
+    "graphene>=3.0",
+]
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[project.urls]
+Homepage = ""
+[tool.pdm]
+
+[build-system]
+requires = ["pdm-pep517"]
+build-backend = "pdm.pep517.api"

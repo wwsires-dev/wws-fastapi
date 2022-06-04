@@ -1,0 +1,24 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true,
+        "app/**/__init__.py": true,
+        "app/**/__pycache__": true
+    },
+    "hide-files.files": [
+        "app/**/__init__.py",
+        "app/**/__pycache__",
+    ],
+    "python.autoComplete.extraPaths": ["__pypackages__/3.10/lib"],
+    "python.analysis.extraPaths": [
+        "__pypackages__/3.10/lib"
+    ]
+}

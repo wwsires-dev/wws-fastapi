@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  api:
+    image: "worldwidesires/fastapi:latest"
+    ports:
+      - "9999:9999"
+    volumes:
+      - "./app:/home/wws/app"

@@ -1,0 +1,18 @@
+[
+    {
+        "TheRing": {
+            "server": "siredb.westus.cloudapp.azure.com,1433",
+            "database": "TheRing",
+            "username": "TheRingService",
+            "password": "Br33d$55"
+        }
+    },
+    {
+        "DMZ": {
+            "server": "wwsstaging.westus.cloudapp.azure.com,1433",
+            "database": "DMZ",
+            "username": "TheRingService",
+            "password": "Br33d$55"
+        }
+    }
+]
