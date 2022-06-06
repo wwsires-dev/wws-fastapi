@@ -5,7 +5,7 @@ class BullService():
 
     def __init__(self) -> None:
         self.db = Database("TheRing")
-        # self.dmz = Database("DMZ")
+        self.dmz = Database("DMZ")
 
     def get_global_id(self, id: str) -> str:
         global_id: str = None

@@ -29,8 +29,8 @@ RUN pdm --pep582 >> /home/wws/.bash_profile
 
 RUN pdm install
 
-EXPOSE 80
+EXPOSE 8080
 
-CMD pdm run uvicorn app.main:app --host=40.112.243.64 --port=80
+CMD pdm run uvicorn app.main:app --host=0.0.0.0 --port=8080 --reload
 
 

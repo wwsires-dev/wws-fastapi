@@ -1,0 +1,6 @@
+__pypackages__/
+.github/
+.vscode/
+app/**/__pycache__/
+app/routers/__pycache__/bull.cpython-310.pyc
+app/services/__pycache__/bull.cpython-310.pyc
